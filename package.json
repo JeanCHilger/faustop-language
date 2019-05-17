@@ -1,20 +1,17 @@
 {
-	"name": "faustop-language",
-	"version": "0.0.0",
-	"description": "Faustop language support in Atom",
-	"engines": {
-		"atom": "*"
-	},
-	
-	"dependencies": {},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/jeanchilger/faustop-language.git"
-	},
-	
-	"bugs": {
-		"url": "https://github.com/jeanchilger/faustop-language/issues"
-	},
-	
-	"license": "MIT"
+  "name": "faustop-language",
+  "version": "0.1.0",
+  "description": "Faustop language support in Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeanchilger/faustop-language.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeanchilger/faustop-language/issues"
+  },
+  "license": "MIT"
 }
