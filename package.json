@@ -9,11 +9,11 @@
 	"dependencies": {},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Junior-16/faustop-language.git"
+		"url": "https://github.com/jeanchilger/faustop-language.git"
 	},
 	
 	"bugs": {
-		"url": "https://github.com/Junior-16/faustop-language/issues"
+		"url": "https://github.com/jeanchilger/faustop-language/issues"
 	},
 	
 	"license": "MIT"
