@@ -1,0 +1,44 @@
+'scopeName': 'source.faustop'
+'name': 'Faustop'
+'fileTypes': ['fau']
+
+'patterns': [
+  {
+    'begin': '\\?'
+    'end': '\\n'
+    'name': 'comment.line.double-bash.faustop'
+  }
+  {
+    'match': '\\b(eagora|churrasqueira)\\b'
+    'name': 'keyword.control.faustop'
+  }
+  {
+    'match': '\\b(mostrai|mostrailn|entrai)\\b'
+    'name': 'support.function.faustop'
+  }
+  {
+    'match': '\\b(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((E|e)(\\+|-)?[0-9]+)?\\b'
+    'name': 'constant.numeric.faustop'
+  }
+  {
+    'match': '\\+|\\-|\\*|/'
+    'name': 'keyword.operator.arithmetic.faustop'
+  }
+  {
+    'match': '\\='
+    'name': 'keyword.operator.assignment.faustop'
+  }
+  {
+    'match': '<\\=|>\\=|\\=\\=|<|>|\\<\\>'
+    'name': 'keyword.operator.comparison.faustop'
+  }
+  {
+    'match': '\\b(olokinho|oloko|bicho|paiseuropa)\\b'
+    'name': 'storage.type.faustop'
+  }
+  {
+    'begin': '\"'
+    'end': '\"'
+    'name': 'string.quoted.double.faustop'
+  }
+]

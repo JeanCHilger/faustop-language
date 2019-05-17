@@ -1,0 +1,16 @@
+'.source.faustop':
+  'If':
+    'prefix': 'eagora'
+    'body': 'eagora(${1:condition}) {\n\t${2}\n}'
+
+  'While':
+    'prefix': 'churrasqueira'
+    'body': 'churrasqueira(${0:condition}) {\n\t\n}'
+
+  'Output':
+    'prefix': 'mostrai'
+    'body': 'mostrai(${0});'
+	
+  'Output ln':
+    'prefix': 'mostrailn'
+    'body': 'mostrailn(${0});'
